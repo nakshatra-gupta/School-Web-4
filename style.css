@@ -1,0 +1,94 @@
+html{
+    scroll-behavior: smooth;
+}
+body
+{
+    text-align: center;
+     background: white;
+    text-decoration-color: black;
+}
+section {
+    color: black;
+    bottom: 0;
+    background: white;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+marquee{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+
+
+#videos iframe
+{
+    width: 80%;
+}
+
+
+input
+{
+    background: grey;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.box-cell box1, box-cell box2, box-cell box2
+(
+float: left;
+width: 33.33%;
+padding: 5px;
+border: 1px solid #c7c7c7;
+)
+hr{
+    width: 100%;
+}
+h5{
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.movie_head i{
+    float: right;
+}
+.movie_head{
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.stuff_li img{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+}
